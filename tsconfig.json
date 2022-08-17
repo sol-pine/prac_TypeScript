@@ -1,0 +1,14 @@
+// ts 파일을 js 파일로 변환할 때 세부 설정 가능
+{
+  "compilerOptions": {
+    "target": "es5", // 자바스크립트 버전
+    // 'es3', 'es5', 'es2015', 'es2016', 'es2017','es2018', 'esnext' 가능
+    "module": "commonjs" // import 문법
+    // "noImplicitAny": true, // any 타입 금지 여부
+    // "strictNullChecks": true, // null, undefined 타입에 이상한 조작하면 에러 띄우기
+    // "strictFunctionTypes": true, //함수파라미터 타입체크 강하게
+    // "noUnusedLocals": true, //쓰지않는 지역변수 있으면 에러내기
+    // "noUnusedParameters": true, //쓰지않는 파라미터 있으면 에러내기
+    // "noImplicitReturns": true, //함수에서 return 빼먹으면 에러내기
+  }
+}
